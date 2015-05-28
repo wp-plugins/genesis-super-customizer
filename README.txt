@@ -4,7 +4,7 @@ Donate link: http://supercustomizer.com/donate
 Tags: customizer, genesis, options, supercustomizer, design
 Requires at least: 3.8
 Tested up to: 4.2.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,10 @@ From your WordPress admin navigate to the Genesis > Import/Export menu. Click "C
 and location your .json customizer template file. Click "Upload File and Import". You should see
 a success notification on the top.
 
+= How do I export my genesis super customizer setting to a template? =
+
+Just like importing a template, navigate to the Genesis > Import/Export menu. Check "Customizer Settings" under the Export Genesis Settings File dialog. Then click the Download Export File button.
+
 = How do I reset the genesis super customizer options? =
 
 In the current version, you need to upload the default settings .json file. You can find that template at [http://supercustomizer.com/downloads/genesis-default-settings/](http://supercustomizer.com/downloads/genesis-default-settings/ "Genesis Super Customizer Default Settings").
@@ -63,6 +67,12 @@ Detailed documentation is coming soon.
 
 
 == Changelog ==
+
+= 1.0.2 - May 28, 2015
+* Added title area padding option to help center title & description within logo height.
+* Updated FAQs.
+* Typo fixes.
+
 
 = 1.0.1 - May 26, 2015 =
 * Header image background-size set to "contain" to utilize logo width & height.
